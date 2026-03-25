@@ -1,0 +1,123 @@
+body{
+margin:0;
+font-family: Arial, sans-serif;
+background:#F9F9F9;
+}
+
+/* header section */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#141D44;
+}
+
+.logo{
+width:120px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+margin:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* hero section */
+
+.hero{
+background-image:url("../image/hero-img.jpg");
+background-size:cover;
+background-position:center;
+height:350px;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:48px;
+margin-left:-300px;
+margin-bottom: -10px;
+color:#BC002D;
+}
+
+.tagline{
+font-size:30px;
+color:#BC002D;
+margin-left:-450px;
+margin-bottom:200px ;
+}
+
+/* feature cards section */
+
+.features{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:50px 20px;
+}
+
+.card{
+width:200px;
+height:200px;
+background:white;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.2);
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:10px;
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+/* information section */
+
+.info{
+display:flex;
+align-items:center;
+gap:40px;
+padding:50px;
+}
+
+.info-img img{
+width:400px;
+border-radius:10px;
+}
+
+.info-text{
+background:white;
+padding:20px;
+border-radius:10px;
+max-width:500px;
+box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* footer section */
+
+footer{
+background:#141D44;
+color:white;
+text-align:center;
+padding:15px;
+}
