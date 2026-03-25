@@ -4,7 +4,7 @@ font-family: Arial, sans-serif;
 background:#F9F9F9;
 }
 
-/* HEADER */
+/* header section */
 
 header{
 display:flex;
@@ -31,7 +31,7 @@ text-decoration:none;
 font-weight:bold;
 }
 
-/* HERO */
+/* hero section */
 
 .hero{
 background-image:url("../image/hero-img.jpg");
@@ -50,14 +50,19 @@ text-align:center;
 
 .hero h1{
 font-size:48px;
-margin:0;
+margin-left:-300px;
+margin-bottom: -10px;
+color:#BC002D;
 }
 
 .tagline{
-font-size:20px;
+font-size:30px;
+color:#BC002D;
+margin-left:-450px;
+margin-bottom:200px ;
 }
 
-/* FEATURE CARDS */
+/* feature cards section */
 
 .features{
 display:flex;
@@ -86,7 +91,7 @@ width:100%;
 border-radius:8px;
 }
 
-/* INFO SECTION */
+/* information section */
 
 .info{
 display:flex;
@@ -108,7 +113,7 @@ max-width:500px;
 box-shadow:0 3px 10px rgba(0,0,0,0.2);
 }
 
-/* FOOTER */
+/* footer section */
 
 footer{
 background:#141D44;
