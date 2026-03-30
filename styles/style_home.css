@@ -22,7 +22,7 @@ nav ul{
 display:flex;
 list-style:none;
 gap:30px;
-margin:0;
+margin:0px;
 }
 
 nav a{
@@ -50,7 +50,7 @@ text-align:center;
 
 .hero h1{
 font-size:57px;
-margin-left:-45%;
+margin-left:-46%;
 margin-bottom: -1%;
 color:#BC002D;
 }
@@ -58,7 +58,7 @@ color:#BC002D;
 .tagline{
 font-size:40px;
 color:#BC002D;
-margin-left:-55;
+margin-left:-55%;
 margin-bottom:13% ;
 }
 
