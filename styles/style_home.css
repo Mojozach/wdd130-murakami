@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 body{
 margin:0;
-font-family: Arial, sans-serif;
+font-family: 'Noto Sans', sans-serif;
 background:#F9F9F9;
+}
+h1, h2, h3, h4{
+font-family: 'Cal Sans', sans-serif;
 }
 
 /* header section */
@@ -50,8 +55,8 @@ text-align:center;
 
 .hero h1{
 font-size:57px;
-margin-left:-46%;
-margin-bottom: -1%;
+margin-left:-50%;
+margin-bottom: -2%;
 color:#BC002D;
 }
 
@@ -112,10 +117,11 @@ padding:20px;
 border-radius:10px;
 max-width:500px;
 box-shadow:0 3px 10px rgba(0,0,0,0.2);
-
-margin-left:-100px;   /* makes it overlap the image */
+/* Adjust the margin to overlap the image */
+margin-left:-100px;   
 position:relative;
 z-index:1;
+font-family: 'Cal Sans', sans-serif;
 }
 
 /* footer section */
