@@ -98,6 +98,7 @@ display:flex;
 align-items:center;
 gap:40px;
 padding:50px;
+position:relative;
 }
 
 .info-img img{
@@ -111,6 +112,10 @@ padding:20px;
 border-radius:10px;
 max-width:500px;
 box-shadow:0 3px 10px rgba(0,0,0,0.2);
+
+margin-left:-100px;   /* makes it overlap the image */
+position:relative;
+z-index:1;
 }
 
 /* footer section */
