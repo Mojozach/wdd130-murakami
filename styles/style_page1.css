@@ -31,28 +31,11 @@ text-decoration:none;
 font-weight:bold;
 }
 
-/* hero section */
-
-.hero{
-background-image:url("../image/hero-img.jpg");
-background-size:cover;
-background-position:center;
-height:350px;
-
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-
-color:white;
-text-align:center;
-}
-
-.hero h1{
-font-size:48px;
-margin-left:-300px;
-margin-bottom: -10px;
-color:#BC002D;
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 5%;
 }
 
 .tagline{
@@ -72,23 +55,31 @@ padding:50px 20px;
 }
 
 .card{
-width:200px;
+width:400px;
 height:200px;
 background:white;
 border-radius:10px;
 box-shadow:0 3px 10px rgba(0,0,0,0.2);
 
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
+display:grid;
 padding:10px;
+grid-template-columns: 1fr 2fr;
 }
 
+.card h2 {
+grid-column: 1 / 2;
+}
 .card img{
-width:100%;
-border-radius:8px;
+grid-column: 1 / 2;
+}
+.card p{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.card ol {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3
 }
 
 /* information section */
